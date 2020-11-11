@@ -11,9 +11,9 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "^6.0",
         "jms/serializer": "^1.1",
-        "monolog/monolog": "~1.12"
+        "monolog/monolog": "^1.12"
     },
     "minimum-stability": "dev",
     "autoload": {
