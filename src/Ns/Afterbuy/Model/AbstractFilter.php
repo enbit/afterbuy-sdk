@@ -42,6 +42,26 @@ abstract class AbstractFilter extends AbstractModel
         return $this->filterName;
     }
 
+	/**
+	 * @return mixed
+	 */
+	public function getFilterValue()
+	{
+		return $this->filterValues['FilterValue'];
+	}
+
+	/**
+	 * @param mixed $value
+	 *
+	 * @return $this
+	 */
+	public function setFilterValue($value)
+	{
+		$this->filterValues['FilterValue'] = $value;
+
+		return $this;
+	}
+
     /**
      * Converts the object to an array
      *
